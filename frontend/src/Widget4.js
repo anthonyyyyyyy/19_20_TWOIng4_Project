@@ -6,22 +6,22 @@ import './App.css';
 const data = 
 [
     {
-      subject: 'Math', A: 120, B: 110, fullMark: 150,
+      subject: 'Santé', A: 120, B: 110, fullMark: 150,
     },
     {
-      subject: 'Chinese', A: 98, B: 130, fullMark: 150,
+      subject: 'Sport', A: 98, B: 130, fullMark: 150,
     },
     {
-      subject: 'English', A: 86, B: 130, fullMark: 150,
+      subject: 'Domotique', A: 86, B: 130, fullMark: 150,
     },
     {
-      subject: 'Geography', A: 99, B: 100, fullMark: 150,
+      subject: 'Loisirs', A: 99, B: 100, fullMark: 150,
     },
     {
-      subject: 'Physics', A: 85, B: 90, fullMark: 150,
+      subject: 'Mobilité', A: 85, B: 90, fullMark: 150,
     },
     {
-      subject: 'History', A: 65, B: 85, fullMark: 150,
+      subject: 'Musique', A: 65, B: 85, fullMark: 150,
     },
   ];
 
@@ -30,11 +30,11 @@ class Widget4 extends PureComponent
     render() {
         return(
             <div style={{ width: '100%', height: 250 }}>
-        <h3>
-        Title
-        </h3>
+        <h4>
+        Domaines d'utilisation des objets connectés
+        </h4>
                 <ResponsiveContainer>
-                    <RadarChart cx={175} cy={100} outerRadius={80} width={50} height={50} data={data}>
+                    <RadarChart cx={175} cy={100} outerRadius={70} width={50} height={50} data={data}>
                         <PolarGrid />
                         <PolarAngleAxis dataKey="subject" />
                         <PolarRadiusAxis />

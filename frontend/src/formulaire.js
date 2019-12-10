@@ -10,22 +10,22 @@ class Form extends Component
                 <h3>Remplir formulaire</h3>
 
                 <div className = "Nom">
-                    <label>Nom :</label>
+                    <label>UserId :</label>
                     <input type="text"></input>
                 </div>
 
                 <div className = "Prénom">
-                    <label>Prénom :</label>
+                    <label>Country :</label>
                     <input type="text"></input>
                 </div>
 
                 <div className = "Pays">
-                    <label>Pays :</label>
+                    <label>Persons in house :</label>
                     <input type="text"></input>
                 </div>
 
                 <div className = "Ville">
-                    <label>Ville :</label>
+                    <label>House size :</label>
                     <input type="text"></input>
                 </div>
 

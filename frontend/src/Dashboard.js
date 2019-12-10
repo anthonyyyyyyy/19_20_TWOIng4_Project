@@ -10,10 +10,6 @@ import Widget4 from './Widget4';
 import Widget6 from './Widget6';
 import { Row, Col } from 'reactstrap';
 import Widget5 from "./Widget5";
-//import Routes from './routes';
-//import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-//import styled from "styled-components";
-//import Form from './formulaire';
 
 class dash extends PureComponent
 {

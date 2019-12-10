@@ -7,10 +7,10 @@ class Widget5 extends PureComponent
 {
     render(){
         return(
-            <div style={{ width: 350, height: 200 }}>
-        <h3>
-        Title
-        </h3>
+            <div style={{ width: '100%', height: 200 }}>
+        <h4>
+        Image
+        </h4>
             <ResponsiveContainer>
                 <img src={img} className="a" alt="user" />
             </ResponsiveContainer>

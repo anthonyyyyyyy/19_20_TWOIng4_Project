@@ -2,13 +2,38 @@ import React, { PureComponent } from 'react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, } from 'recharts';
 import { ResponsiveContainer }  from 'recharts';
 import './App.css';
+import axios from 'axios';
 
-///WIDGET PIE CHART
+class Widget1 extends PureComponent 
+{
+  constructor(props) 
+  {
+    super(props);
+    
+    this.state = {
+      pays: '',
+      pers: '',
+      hsize: '',
+    }
+  }
 
-const data = 
-[
+  componentDidMount(){
+        
+    axios.get('http://localhost:3000/users/getUser')
+    .then (res => {
+        console.log(res);
+        this.setState({ pays : res.data.location,
+                        pers : res.data.personsInHouse,
+                        hsize : res.data.houseSize,
+                    })
+    })
+  }
+
+    render() {
+      const data = 
+    [
     {
-      name: 'Page A', uv: 4000, pv: 2400, amt: 2400,
+      name: this.state.pays, uv: 3100, pv: 2400, amt: 2400,
     },
     {
       name: 'Page B', uv: 3000, pv: 1398, amt: 2210,
@@ -19,25 +44,13 @@ const data =
     {
       name: 'Page D', uv: 2780, pv: 3908, amt: 2000,
     },
-    {
-      name: 'Page E', uv: 1890, pv: 4800, amt: 2181,
-    },
-    {
-      name: 'Page F', uv: 2390, pv: 3800, amt: 2500,
-    },
-    {
-      name: 'Page G', uv: 3490, pv: 4300, amt: 2100,
-    },
-];
+    ];
 
-class Widget1 extends PureComponent 
-{
-    render() {
         return (
       <div style={{ width: '100%', height: 250 }}>
-        <h3>
-          Title
-        </h3>
+        <h4>
+          BarChart
+        </h4>
         <ResponsiveContainer>
           <BarChart
             width={50}

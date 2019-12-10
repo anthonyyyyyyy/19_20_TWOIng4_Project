@@ -5,7 +5,8 @@ import './App.css';
 
 class Widget6 extends PureComponent
 {
-    state = {
+
+  state = {
         date: new Date(),
       }
 
@@ -20,9 +21,9 @@ class Widget6 extends PureComponent
       render() {
         return (
           <div style={{ width: '100%', height: 250 }}>
-        <h3>
-        Title
-        </h3>
+        <h4>
+        clock
+        </h4>
           <ResponsiveContainer>
           <div>
             <Clock
@@ -32,6 +33,6 @@ class Widget6 extends PureComponent
           </ResponsiveContainer>
           </div>
         );
-      }      
+      }  
 }
 export default Widget6

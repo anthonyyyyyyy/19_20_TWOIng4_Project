@@ -51,9 +51,9 @@ class Widget2 extends PureComponent
     {
         return (
           <div style={{ width: '100%', height: 250 }}>
-        <h3>
-        Title
-        </h3>
+        <h4>
+        AreaChart
+        </h4>
           <ResponsiveContainer>
             <AreaChart
             width={350}
