@@ -6,6 +6,8 @@ import axios from 'axios';
 
 class Widget1 extends PureComponent 
 {
+
+  ///tentative de lien backend
   constructor(props) 
   {
     super(props);
@@ -29,6 +31,7 @@ class Widget1 extends PureComponent
     })
   }
 
+    ///tentative d'affichage du pays dans le widget
     render() {
       const data = 
     [
