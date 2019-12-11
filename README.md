@@ -36,7 +36,7 @@ Pour ouvrir ce projet, vous devez suivre les étapes suivantes :
 
 ## Lien pour le trello
 
-[![Build Status](https://trello.com/b/HuykpO4k/projet-web-p1)
+[Build Status](https://trello.com/b/HuykpO4k/projet-web-p1)
 
 ## Contacts  
 Si vous souhaitez nous contacter pour plus d'informations :
