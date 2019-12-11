@@ -32,7 +32,7 @@ Pour ouvrir ce projet, vous devez suivre les étapes suivantes :
 
 ## Lien pour le loom
 
-[Lomm](https://www.loom.com/share/eb80cf9ddcdd49a7b69a3ad0e6cee42f)
+[Loom](https://www.loom.com/share/eb80cf9ddcdd49a7b69a3ad0e6cee42f)
 
 ## Lien pour le trello
 
@@ -46,7 +46,3 @@ Si vous souhaitez nous contacter pour plus d'informations :
 ## Contributeurs
 [ @anthonyyyyyyy ](https://github.com/anthonyyyyyyy)
 [ @yugani ](https://github.com/yugani)
-
-
-
-
