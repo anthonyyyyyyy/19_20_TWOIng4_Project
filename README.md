@@ -1,25 +1,52 @@
 # Projet de fin de semestre
 
-Dehiwala Yugani GRO4 - Selak Anthony GR02
+Dehiwala Yugani GR04 - Selak Anthony GR02
 
-A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
+# Dashboard Project
+Frontend : HTML/CSS, React, Bootstrap
+Backend : Node.js, Express, mongodb, mongoose
 
-<p align="center">
- <a href="https://github.com/clementAC/Instructions-Technologies-Web-OCRES-Ing4/blob/master/README.md">Règles pour le semestre</a>
-</p>
+## Prérequis  
+Avant d'aller plus loin, vérifiez de bien avoir installé :
+  
+* `npm` et `git` sur votre machine.  
 
-## Introduction
+## Utilisation
 
-Ce repo git contient deux repertoires. L'un concerne la partie backend et l'autre la partie frontend.
+Pour ouvrir ce projet, vous devez suivre les étapes suivantes :  
+  
+* Premièrement, cloner le projet dans un dossier de votre choix
+```git clone https://github.com/anthonyyyyyyy/19_20_TWOIng4_Project```
 
-Les deux repertoires ont été initialisé pour vous aider à démarrer le projet dans les meilleures conditions.
+* Ensuite placez vous dans le frontend pour tester les widgets 
+```cd frontend```.
 
-Chacun de ces repertoires contient un README.md qui vous pouvez vous approprier. Nous vous encourageons à le faire en y mettant toute les informations nécessaires à la compréhension de votre projet
+* Lancez npm 
+```npm install```.
 
-## Instructions
+*  Et enfin lancez le projet
+```npm start```.
 
-Les instructions sont à retrouver dans le pdf mis à disposition sur campus.
+* Afin de tester le backend, vous devez cloner le projet suivant (Le dossier backend dans ce projet est le bon (les requêtes sur Postman fonctionnent et la connexion avec Mongodb est réussie))
+```git clone https://github.com/yugani/19_20_TWOIng4_Project```
 
-**Le non respect de ces instructions entraînera des pertes de points alors prenez le temps de tout lire et de poser des questions si vous ne comprenez pas**
+## Lien pour le loom
 
-Pour rappel, la probabilité de recevoir une réponse à un mail envoyé quelques heures avant le rendu est très proche de 0.
+[![Build Status](https://www.loom.com/share/eb80cf9ddcdd49a7b69a3ad0e6cee42f)
+
+## Lien pour le trello
+
+[![Build Status](https://trello.com/b/HuykpO4k/projet-web-p1)
+
+## Contacts  
+Si vous souhaitez nous contacter pour plus d'informations :
+ * anthony.selak@edu.ece.fr
+ * yugani.dehiwala-liyanage-perera@edu.ece.fr
+
+## Contributeurs
+[ @anthonyyyyyyy ](https://github.com/anthonyyyyyyy)
+[ @yugani ](https://github.com/yugani)
+
+
+
+
