@@ -32,11 +32,11 @@ Pour ouvrir ce projet, vous devez suivre les étapes suivantes :
 
 ## Lien pour le loom
 
-[![Build Status](https://www.loom.com/share/eb80cf9ddcdd49a7b69a3ad0e6cee42f)
+[Lomm](https://www.loom.com/share/eb80cf9ddcdd49a7b69a3ad0e6cee42f)
 
 ## Lien pour le trello
 
-[Build Status](https://trello.com/b/HuykpO4k/projet-web-p1)
+[Trello](https://trello.com/b/HuykpO4k/projet-web-p1)
 
 ## Contacts  
 Si vous souhaitez nous contacter pour plus d'informations :
